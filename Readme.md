@@ -194,6 +194,6 @@ Expected output: `Hiii from jenkins, This is my first pipeline`
 - Run `pm2 save` and `pm2 startup` so the app survives server reboot
 - Add Slack/email notifications in `post`
 
-## License
+output:
 
-MIT
+![](/img/Capture.PNG)
