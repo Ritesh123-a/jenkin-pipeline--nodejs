@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '172.31.13.206'
+        SERVER_IP      = '172.31.47.151'
         SSH_CREDENTIAL = 'node-pipeline-key'
-        REPO_URL       = 'https://github.com/iamtruptimane/node-js-app-CICD.git'
+        REPO_URL       = 'https://github.com/Ritesh123-a/jenkin-pipeline--nodejs'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
         REMOTE_PATH    = '/home/ubuntu/node-app'
